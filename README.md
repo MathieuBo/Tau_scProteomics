@@ -75,16 +75,8 @@ Start a Jupyter session from the project root:
 ```bash
 jupyter lab
 ```
-
 Then open notebooks in `notebooks/` and run them sequentially. The preprocessing notebook (`0-Preprocessing.ipynb`) generates the `.h5ad` files consumed by all downstream notebooks.
 
-From within a notebook, shared utilities are imported via:
-
-```python
-import sys
-sys.path.append('..')
-from src.pathway_score import calc_pathway_score
-```
 
 ## Author
 Mathieu Bourdenx — UK Dementia Research Institute at UCL
