@@ -1,6 +1,7 @@
-# Single-cell proteomics of tau-bearing neurons in Alzheimer's disease
+# Single-cell proteomics of tau-bearing neurons in Alzheimer's disease (Foiani, Bourdenx, Kraller, et al. 2026)
 
 This repository contains the analysis code for the single-cell and mini-bulk (pooled ~20 cells) proteomics study of laser-capture microdissected (LCM) neurons from human Alzheimer's disease frontal cortex. Neurons were stratified by phospho-tau (pTau) immunofluorescence status prior to microdissection and analysed by DIA-PASEF mass spectrometry on a timsTOF Ultra.
+
 
 ## Data availability
 
@@ -85,6 +86,5 @@ sys.path.append('..')
 from src.pathway_score import calc_pathway_score
 ```
 
-## Authors
-
-Mathieu Bourdenx — UKRI Future Leaders Fellow, UK Dementia Research Institute at UCL
+## Author
+Mathieu Bourdenx — UK Dementia Research Institute at UCL
