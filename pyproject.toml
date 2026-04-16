@@ -27,4 +27,5 @@ dependencies = [
 notebooks = [
     "ipykernel",
     "ipywidgets",
+    "jupyterlab",
 ]
