@@ -1,3 +1,6 @@
+![Python 3.12](https://img.shields.io/badge/python-3.12-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 # Single-cell proteomics of tau-bearing neurons in Alzheimer's disease (Foiani, Bourdenx, Kraller, et al. 2026)
 
 This repository contains the analysis code for the single-cell and mini-bulk (pooled ~20 cells) proteomics study of laser-capture microdissected (LCM) neurons from human Alzheimer's disease frontal cortex. Neurons were stratified by phospho-tau (pTau) immunofluorescence status prior to microdissection and analysed by DIA-PASEF mass spectrometry on a timsTOF Ultra.
@@ -32,27 +35,29 @@ This repository contains the analysis code for the single-cell and mini-bulk (po
 
 ## Dependencies
 
+Tested with Python 3.12.
+
 ### Python
 
-| Package | Purpose |
-|---------|---------|
-| anndata | Data structure (AnnData / .h5ad) |
-| scanpy | Single-cell analysis toolkit |
-| pandas | Data manipulation |
-| numpy | Numerical computing |
-| scipy | Statistics (correlation, FDR, clustering, interpolation) |
-| statsmodels | ANOVA, post-hoc tests |
-| matplotlib | Plotting |
-| seaborn | Statistical visualisation |
-| PyComplexHeatmap | Annotated clustered heatmaps |
-| adjustText | Non-overlapping text labels |
-| palantir | Pseudotime inference (diffusion maps) |
-| gseapy | Gene set enrichment analysis (pre-ranked GSEA, Enrichr) |
-| scikit-learn | Dimensionality reduction |
-| piecewise-regression | Breakpoint / segmented regression |
-| joblib | Parallel computation |
-| tqdm | Progress bars |
-| openpyxl | Excel file reading |
+| Package | Version | Purpose |
+|---------|---------|---------|
+| anndata | 0.11.4 | Data structure (AnnData / .h5ad) |
+| scanpy | 1.11.1 | Single-cell analysis toolkit |
+| pandas | 2.2.3 | Data manipulation |
+| numpy | 2.2.5 | Numerical computing |
+| scipy | 1.15.2 | Statistics (correlation, FDR, clustering, interpolation) |
+| statsmodels | 0.14.4 | ANOVA, post-hoc tests |
+| matplotlib | 3.10.1 | Plotting |
+| seaborn | 0.13.2 | Statistical visualisation |
+| PyComplexHeatmap | 1.8.2 | Annotated clustered heatmaps |
+| adjustText | 1.3.0 | Non-overlapping text labels |
+| palantir | 1.4.1 | Pseudotime inference (diffusion maps) |
+| gseapy | 1.1.11 | Gene set enrichment analysis (pre-ranked GSEA, Enrichr) |
+| scikit-learn | 1.5.2 | Dimensionality reduction |
+| piecewise-regression | 1.5.0 | Breakpoint / segmented regression |
+| joblib | 1.4.2 | Parallel computation |
+| tqdm | 4.67.1 | Progress bars |
+| openpyxl | 3.1.5 | Excel file reading |
 
 ### R
 
