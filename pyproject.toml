@@ -1,0 +1,30 @@
+[project]
+name = "tau-scproteomics"
+version = "0.1.0"
+description = "Single-cell and mini-bulk proteomics of tau-bearing neurons in Alzheimer's disease"
+requires-python = ">=3.11"
+dependencies = [
+    "adjustText",
+    "anndata",
+    "gseapy",
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "palantir",
+    "pandas",
+    "piecewise-regression",
+    "PyComplexHeatmap",
+    "scanpy",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "statsmodels",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "ipykernel",
+    "ipywidgets",
+]
